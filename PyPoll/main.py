@@ -30,6 +30,7 @@ vote_counts = {}
 
 # Count the votes for each candidate
 for vote in votes:
+    #Candidate names are in index 2
     candidate = vote[2]
     if candidate not in vote_counts:
         vote_counts[candidate] = 0
